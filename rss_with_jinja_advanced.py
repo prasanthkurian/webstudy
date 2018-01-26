@@ -10,7 +10,7 @@ RSS_FEEDS = {
             'iol': 'http://www.iol.co.za/cmlink/1.640'
         }
 
-app = Flask(__name__) 
+app = Flask(__name__)
 
 @app.route("/<publication>")
 def get_news(publication="bbc"):
